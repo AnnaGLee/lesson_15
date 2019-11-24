@@ -1,0 +1,11 @@
+.image {
+border: 2px black solid;
+padding: 5px
+}
+.image:hover {
+border: 4px blue solid
+}
+.button:hover {
+    width: 40px;
+    height: 35px;
+}

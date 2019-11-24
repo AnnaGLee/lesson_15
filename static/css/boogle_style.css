@@ -1,0 +1,39 @@
+
+.header {
+top: 100px;
+font-size: 50px;
+text-align: center;
+height: 200px;
+vertical-align: middle;
+}
+
+.g1 {
+color: blue;
+}
+.o1 {
+color: red;
+}
+.o2 {
+color: orange;
+}
+.g1 {
+color: blue;
+}
+.l1 {
+color: green;
+}
+.e1 {
+color: red;
+}
+
+
+.main {
+    right: 70px;
+    width: 740px;
+    height: 200px;
+    ;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+

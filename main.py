@@ -7,7 +7,6 @@ counter = 0
 
 #wir definieren eine route via dekorator das mit dem @
 @app.route("/")
-
 def index():
     global counter #global weil wir counter innerhalb der Funktion verwenden wollen
     counter +=1
@@ -17,6 +16,23 @@ def index():
 @app.route("/about")
 def about():
     return render_template("about.html")
+
+
+@app.route("/portfolio")
+def portfolio():
+    return render_template("portfolio.html")
+
+@app.route("/portfolio/fakebook")
+def fakebook():
+    return render_template("fakebook.html")
+
+@app.route("/portfolio/boogle")
+def boogle():
+    return render_template("boogle.html")
+
+@app.route("/portfolio/hairdresser")
+def hairdresser():
+    return render_template("hairdresser.html")
 
 #wenn dieses modul das hauptmodul ist dann starten wir flask
 if __name__== "__main__":
