@@ -32,7 +32,7 @@ def boogle():
 
 @app.route("/portfolio/hairdresser")
 def hairdresser():
-    return render_template("hairdresser.html")
+    return render_template("/hairdresser.html")
 
 #wenn dieses modul das hauptmodul ist dann starten wir flask
 if __name__== "__main__":
